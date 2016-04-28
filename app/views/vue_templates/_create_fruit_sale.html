@@ -1,5 +1,10 @@
 <script id="create-fruit-sale-template" type="text/template">
   <div>
-    I'm the fruit sale template
+    <form v-on:submit.prevent="handleNewFruitSale">
+      <input type="text" v-model="newFruitSale.variety">
+      <input type="number" v-model="newFruitSale.quantity">
+
+      <input type="submit" value="Create new fruit sale">
+    </form>
   </div>
 </script>
