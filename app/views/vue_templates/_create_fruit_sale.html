@@ -1,7 +1,10 @@
 <script id="create-fruit-sale-template" type="text/template">
   <div>
     <form v-on:submit.prevent="handleNewFruitSale">
-      <input type="text" v-model="newFruitSale.variety">
+      <input list="fruitVarieties" type="text" v-model="newFruitSale.variety">
+      <datalist id="fruitVarieties">
+        <option v-for="(variety, quantity) in fruitStats "v-bind:value="variety">
+      </datalist>
       <input type="number" v-model="newFruitSale.quantity">
 
       <input type="submit" value="Create">
