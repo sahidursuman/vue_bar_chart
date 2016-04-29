@@ -8,7 +8,7 @@
     data: function () {
       return {
         newFruitSale: {},
-        fruitStats: []
+        fruitStats: {}
       }
     },
 
