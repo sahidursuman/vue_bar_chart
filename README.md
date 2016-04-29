@@ -14,3 +14,5 @@ The inspiration for this project came from [this post](https://css-tricks.com/ho
 ![Fruit stats](fruit_stats.png?raw=true)
 ![Routes](routes.png?raw=true)
 ![Static Bar Chart](static_bar_chart.png?raw=true)
+
+* *[Video 1](https://youtu.be/Pgbk2ETyJ9c)*: Create a new fruit sale.
