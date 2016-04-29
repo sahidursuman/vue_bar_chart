@@ -16,3 +16,4 @@ The inspiration for this project came from [this post](https://css-tricks.com/ho
 ![Static Bar Chart](static_bar_chart.png?raw=true)
 
 * *[Video 1](https://youtu.be/Pgbk2ETyJ9c)*: Create a new fruit sale.
+* *[Video 2](http://youtu.be/g1p8Wz1TNvk)*: Dynamic Bar graph. (No sound)
